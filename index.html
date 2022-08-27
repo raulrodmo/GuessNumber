@@ -17,22 +17,25 @@
         <h1 id="title">Guess Number</h1>
     </header>
     <main>
-        <form action=""></form>
+        <form></form>
             <p id="text_introduction">Tente adivinhar em qual número estou pensando.</p>
             <p id="tip">Dica: Estou pensando em um número de 0 a 10.</p>
             <p id="quest">Que número é esse? Você terá 3 chances.</p>
-            <textarea 
+            <input
                 id="insert_number" 
-                placeholder="?" 
-                style="resize: none" 
-                rows="1" 
+                placeholder="?"
                 maxlength="2">
-            </textarea>
-            <button id="button">Arriscar</button>
+            <button 
+                id="button"
+                onclick="analysis()">
+                Arriscar
+            </button>
     </main>
     
     <footer>
         Feito com 💜 por raulrodmo
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 </html>
