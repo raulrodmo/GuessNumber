@@ -1,0 +1,1 @@
+In progress... Repositório demonstra uma brincadeira de adivinhação entre homem e máquina. A máquina gerará um número aleatório de 0 a 10 e o usuário terá 3 chances para descobrir qual o número, caso não acerte o número nas três tentativas, a máquina gerará um novo número e a brincadeira recomeça.
