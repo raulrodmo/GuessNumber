@@ -19,8 +19,9 @@ function analysis(){
     let attempt = insert_number.value ;
 
         if(Guess.number_attempt>1){
-            alert(`Infelizmente, você não acertou. O número era ${chosen_number}`);
+            alert(`Infelizmente, você não acertou. O número era ${chosen_number}. \n\nPressione ok pra recomeçar!`);
             Guess.number_attempt=0;
+            window.location.reload(true);
         }
 
         else if(attempt>10){
@@ -39,7 +40,8 @@ function analysis(){
         }
 
         else if(attempt == chosen_number){
-            alert(`Parabéns, você acertou! O número era ${chosen_number}.`);
+            alert(`Parabéns, você acertou! O número era ${chosen_number}. Pressione ok pra recomeçar!`);
             correct = true;
+            window.location.reload(true);
         }
 }
