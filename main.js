@@ -40,7 +40,7 @@ function analysis(){
         }
 
         else if(attempt == chosen_number){
-            alert(`Parabéns, você acertou! O número era ${chosen_number}. Pressione ok pra recomeçar!`);
+            alert(`Parabéns, você acertou! O número era ${chosen_number}. \n\nPressione ok pra recomeçar!`);
             correct = true;
             window.location.reload(true);
         }
