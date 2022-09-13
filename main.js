@@ -17,11 +17,19 @@ const chosen_number = Math.floor(Math.random() * (10 - 1 + 1) + 1);
 function analysis(){
 
     let attempt = insert_number.value ;
-
+        
         if(Guess.number_attempt>1){
+            if (attempt == chosen_number){
+                correct = true;
+                alert(`Parabéns, você acertou! O número era ${chosen_number}. \n\nPressione ok pra recomeçar!`);
+                window.location.reload(true);
+            }
+
+            else {
             alert(`Infelizmente, você não acertou. O número era ${chosen_number}. \n\nPressione ok pra recomeçar!`);
             Guess.number_attempt=0;
             window.location.reload(true);
+            }
         }
 
         else if(attempt>10){
@@ -40,8 +48,10 @@ function analysis(){
         }
 
         else if(attempt == chosen_number){
-            alert(`Parabéns, você acertou! O número era ${chosen_number}. \n\nPressione ok pra recomeçar!`);
             correct = true;
+            alert(`Parabéns, você acertou! O número era ${chosen_number}. \n\nPressione ok pra recomeçar!`);
             window.location.reload(true);
         }
+
+        
 }
