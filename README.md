@@ -2,8 +2,9 @@ O repositório demonstra uma brincadeira de adivinhação entre homem e máquina
 <br>
 Link de visualização: https://guessnumber-raulrodmo.netlify.app/
 <br>
-Abaixo temos uma imagem ilustrativa:
-![image](https://user-images.githubusercontent.com/102265187/190527560-b3d61a47-a199-4876-982d-2dd094871c0c.png)
+Abaixo temos um vídeo expositivo do resultado:
+
+https://user-images.githubusercontent.com/102265187/201139399-d80404ee-3b79-4194-ad34-c1a6c8ca27c6.mp4
 
 #### Programming languages used
 
