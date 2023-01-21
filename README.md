@@ -1,15 +1,32 @@
-O repositório demonstra uma brincadeira de adivinhação entre homem e máquina. A máquina gerará um número aleatório de 0 a 10 e o usuário terá 3 chances para descobrir qual o número, caso não acerte o número nas três tentativas, a máquina gerará um novo número e a brincadeira recomeça.
-<br>
-Link de visualização: https://guessnumber-raulrodmo.netlify.app/
-<br>
-Abaixo temos uma imagem ilustrativa:
-![image](https://user-images.githubusercontent.com/102265187/190527560-b3d61a47-a199-4876-982d-2dd094871c0c.png)
+<h1 align="center"> Guess Number </h1>
 
-#### Programming languages used
+<p align="center">
+O repositório demonstra uma brincadeira de adivinhação entre homem e máquina. A máquina gerará um número aleatório de 0 a 10 e o usuário terá 3 chances para descobrir qual o número, caso não acerte o número nas três tentativas, a máquina gerará um novo número e a brincadeira recomeça.<br/>
+</p>
 
-<div>
-      <a href="https://github.com/raulrodmo">
-            <img id="html" src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" width="60" height="60"/>
-            <img id="css" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="60" height="60"/>
-            <img id="js" src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" width="60" height="60"/>
-</div>
+<p align="center">
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project">Project</a>
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="guess number" src=".github/preview.jpg" width="100%">
+</p>
+
+## 🚀 Technologies
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+
+## 💻 Project
+
+- [Visite o projeto online](https://guessnumber-raulrodmo.netlify.app/)
+
+---
+
+<p align="center">Made with 💜 by raulrodmo</p>
